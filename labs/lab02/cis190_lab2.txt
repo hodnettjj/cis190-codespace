@@ -1,0 +1,21 @@
+1. Display help anout the ls command while at the command line. Give your command.
+	man ls
+2. Use the man page to determine how to make "ls" display long listings with file sizes in human readable format. Give your command.
+	ls - h
+3. Read the man page for mkdir command. Give the command and describe how to exit the main page.
+	q "q" will exit the man page
+4. Read the man page for the mkdir command again and this time search for parent in that man page. Give the command to search for parent.
+	After "man mkdir" type "/parent" to search for parent.
+5. Reopen the man page for mkdir then suspend that process (This is a review command from last week). Give the command to suspend.
+	Control + Z will suspend the command.
+6. Now you are back at the command line, give the command to show suspended jobs. Give the command.
+	type "jobs" 
+7. Give the command to restart your suspended job.
+	Type "fg" to restart suspended job.
+8. Using sudo, run the comman "ls ~/home" with superuser priviledges. Give the command and your answer.
+	Couldn't figure it out. 
+9. Desribe how to select a strong password.
+	At least 12 characters long or more. Combination of uppercase and lowercas letters, numbers, and symbols
+Not a familiar name, person, character, or product. Is not based on your personal information. Passwords are unique for each account you have. Significantly different from your previously used passwords
+10. Tetst file.
+	It worked.	   
