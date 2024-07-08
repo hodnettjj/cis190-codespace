@@ -1,0 +1,40 @@
+1. Navigate to the 'mq-9' directory using an absolute path.
+1. Answer: cd /data/aircraft/configurations/mq-9
+2. Navigate to the 'xq-67a' directory using a relative path from 'configurations'.
+2. Answer cd xq-67a
+3. Move 'n345qr.cfg' to the 'mq-1c' directory.
+3. Answer mv n345qr.cfg mq-1c
+4. Move 'n678st.cfg' to the 'mojave' directory.
+4. Answer mv n678st.cfg mojave
+5. Create a backup directory in "aircraft" and copy all the configuration files into it.
+5. Answer 
+6. List the i-nodes of all configuration files in 'mq-20'
+6. Answer ls -i
+7. Remove the 'mq-9b' directory using 'rmdir' and explain the error message.
+7. Answer failed to remove 'mq-9b': Directory not empty.  Files are in the directory. Seems like a good safeguard.
+8.Create a 'locations' directory in 'aircraft'
+8. Answer mkdir locations
+9. Create symbolic links in 'locations' to the 'xq-67a', 'mq-1c', and 'mq-9' directories.
+9. Answer ln -s /data/aircraft/configurations/xq-67a;ln -s /data/aircraft/configurations/mq-9;ln -s /data/aircraft/configurations/mq-1c
+10. Navigate to "mojave" using a relative path from "aircraft"
+Answer cd configurations/mojave
+11. Copy 'n112op.cfg' to the 'backup' directory
+11. Answer cp n112op.cfg /data/aircraft/backup
+12. List all files in the 'configurations' directory with their sizes.
+12. Answer ls -lh
+13. Move 'n890mn.cfg' from 'mq-9' to 'mq-20
+13. Answer  mv n890mn.cfg /data/aircraft/configurations/mq-20
+14.  Create a symbolic link to 'n101gh.cfg' in the 'locations' directory.
+14. Answer ln -s /data/aircraft/configurations/mq-1c/n101gh.cfg
+15. Navigate to 'mq-1c' using an absolute path.
+15. cd /data/aircraft/configurations/mq-1c
+16.  Remove the symbolic link to 'xq-67a' in the 'locations' directory.
+16. Answer rm mq-1c
+17. Create a new configuration file 'n567kl.cfg' in the 'mojave' directory.
+17. Answer touch n567kl.cfg
+18. Display the disk usage of the 'configurations' directory
+18. Answer df -T 
+19. Create a directory 'test' inside 'mq-9' and remove it using 'rmdir'.
+19. Answer mkdir test; then rmdir test
+20. Rename "index.cfg" in "xq-67a" to "main.cfg"
+20. Answer mv index.cfg main.cfg
