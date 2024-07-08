@@ -7,7 +7,7 @@
 4. Move 'n678st.cfg' to the 'mojave' directory.
 4. Answer mv n678st.cfg mojave
 5. Create a backup directory in "aircraft" and copy all the configuration files into it.
-5. Answer 
+5. Answer "ran out of time" I'll work to figure it out next week.
 6. List the i-nodes of all configuration files in 'mq-20'
 6. Answer ls -i
 7. Remove the 'mq-9b' directory using 'rmdir' and explain the error message.
