@@ -1,0 +1,8 @@
+I was able to use some of the methods learned during this course.
+I started tge script recording using the script command.
+I was able to use the wget command to get a file from a location on the internet.
+I moved that file to a new directory and unzipped it.
+I used Globstar to show the .ini files and grep command to find a particular string of text.
+I was abke to count lines and output them to a different file.
+After writing this summary I am interested in how it all looks in the script record.  I messed up plenty.
+I feel I will get more expeienced as I progress and use Linux more often.:
